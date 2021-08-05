@@ -1,0 +1,77 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .containerAbout {
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+    .company {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      .companyHead {
+        font-size: 24px;
+      }
+      .companyText {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 20px;
+      }
+    }
+
+    .vision {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      .visionHead {
+        font-size: 24px;
+      }
+      .visionText {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 20px;
+      }
+    }
+
+    .mission {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      .missionHead {
+        font-size: 24px;
+      }
+      .missionText {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 20px;
+      }
+    }
+  }
+  .containerExplain {
+    width: 87%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    h1 {
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 2rem;
+    }
+  }
+  .containerCounter {
+    width: 100%;
+    display: flex;
+  }
+}

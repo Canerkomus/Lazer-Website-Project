@@ -1,0 +1,14 @@
+@import "../global.scss";
+
+.applicationslist {
+  font-size: 20px;
+  margin-right: 70px;
+  padding: 10px;
+  cursor: pointer;
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+    border-radius: 10px;
+  }
+}
