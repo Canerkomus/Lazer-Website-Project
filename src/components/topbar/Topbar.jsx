@@ -1,48 +1,35 @@
 import "./topbar.scss";
+import DesktopTopbar from "./DesktopTopbar";
+import MobileTopbar from "./MobileTopbar";
 
 export default function Topbar() {
   return (
     <div className="topbar">
       <div className="wrapper">
         <div className="left">
-          <div className="imgContainer">
-            <img src="assets/logo.jpg" alt="" />
-          </div>
+          <h1>MRY</h1>
+          <img
+            src="https://www.seekpng.com/png/full/436-4365593_png-file-svg-exo-baekhyun-symbol.png"
+            alt=""
+            width="16%"
+          />
         </div>
-
         <div className="center">
-          <li>
-            <a href="#home" className="active">Ana Sayfa</a>
-          </li>
-          <span className="span">|</span>
-          <li>
-            <a href="#about">Hakkımızda</a>
-          </li>
-          <span className="span">|</span>
-          <li>
-            <a href="#applications">Uygulamalar</a>
-          </li>
-          <span className="span">|</span>
-
-          <li>
-            <a href="#machines">Makinalar</a>
-          </li>
-          <span className="span">|</span>
-          <li>
-            <a href="#contact">İletişim</a>
-          </li>
+          <DesktopTopbar />
+          <MobileTopbar />
         </div>
         <div className="right">
-          <li>
-            <a href="https://wa.me/905337653899">
+          <div className="whatsapp">
+            <a href="https://wa.me/0533753899">
               <img
-                className="wpimg"
-                src="https://capslocknext.com/wp-content/uploads/2019/11/whatsapp-logo-light-green-png-0.png"
+                src="https://www.reformdanismanlik.com.tr/wp-content/uploads/2017/01/whatsapp.png"
                 alt=""
+                width="11%"
               />
+
               <p>Teklif Al !</p>
             </a>
-          </li>
+          </div>
         </div>
       </div>
     </div>

@@ -10,7 +10,9 @@
     flex-direction: column;
     height: 100%;
     width: 97.5%;
-
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
     .top {
       display: flex;
       align-items: center;
@@ -20,6 +22,9 @@
       width: 100%;
       overflow: hidden;
       margin-left: 50px;
+      @media only screen and (max-width: 768px) {
+        margin-left: 0px;
+      }
 
       .left {
         display: flex;
@@ -37,6 +42,9 @@
           margin-bottom: 10px;
           font-family: "Open Sans", sans-serif;
           color: white;
+          @media only screen and (max-width: 768px) {
+            font-size: 20px;
+          }
         }
 
         h2 {
@@ -44,6 +52,10 @@
           margin-bottom: 30px;
           font-family: "Open Sans", sans-serif;
           color: white;
+          @media only screen and (max-width: 768px) {
+            font-size: 13px;
+            margin-bottom: 15px;
+          }
         }
 
         .formcontainer {
@@ -101,46 +113,59 @@
         width: 100%;
         flex-direction: column;
         min-height: 100vh;
+
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+
+    .bottomLeft {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+
+      li {
+        list-style-type: none;
+        margin-right: 50px;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        cursor: pointer;
       }
     }
 
-    .bottom {
+    .bottomRight {
       display: flex;
       flex: 1;
-      background-color: white;
-      height: 20vh;
-      width: 100%;
+      justify-content: center;
+      align-items: center;
 
-      .bottomLeft {
-        display: flex;
-        flex: 1;
-        justify-content: center;
-        align-items: center;
-
-        li {
-          list-style-type: none;
-          margin-right: 50px;
-          font-family: "Roboto", sans-serif;
-          font-size: 15px;
-          cursor: pointer;
+      .icons {
+        margin-left: 20px;
+        cursor: pointer;
+        @media only screen and (max-width: 768px) {
+          margin-left: 30px;
         }
       }
 
-      .bottomRight {
-        display: flex;
-        flex: 1;
-        justify-content: center;
-        align-items: center;
-
-        .icons {
-          margin-left: 20px;
-          cursor: pointer;
-        }
-
-        p {
-          margin-left: 30px;
-          font-family: "Roboto", sans-serif;
-          font-size: 15px;
+      p {
+        margin-left: 30px;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        @media only screen and (max-width: 768px) {
+          font-size: 10px;
         }
       }
     }

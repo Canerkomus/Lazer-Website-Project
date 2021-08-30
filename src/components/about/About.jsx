@@ -38,19 +38,16 @@ export default function About() {
         <p>
           Bünyemizde bulunan alanında uzman ve dinamik ekibimiz, müşteri
           memnuniyetini esas alarak firmanızın ve markanızın ihtiyaçlarını
-          analiz ederek en uygun çözüm ortaklığını sunmaktadır.
-          <br /> Hizmet ve ürün yelpazemizi gelen talepler doğrultusunda
-          genişleterek en kaliteli ve en yüksek performanslı üretimleri
-          gerçekleştirmekteyiz. 400 m2 kapalı alanda son teknoloji lazer kesim
-          makinalarımızla hizmet veren firmamız, müşterilerine göstermiş olduğu
-          kaliteli hizmeti, ekonomik çözümler ve zamanında teslimat ile
-          bütünleştirmektedir. Firmamız aynı zaman da siz değerli müşterimize
-          daha iyi hizmet vermek için sertifikasına sahip olduğu kurumlar
-          tarafından düzenle olarak denetlenmektedir. Müşteri memnuniyetinin
-          önemli olduğunu bilen MC Lazer süreklilik için önce kalite felsefesi
-          ile çalışmalarını sürdürmekte ve içinde bulunduğu sektörde her zaman
-          kaliteyi arttırmayı hedefleyerek, sizlere hizmet sunmaya zevk ve
-          heyecanla devam etmektedir.
+          analiz ederek en uygun çözüm ortaklığını sunmaktadır. Hizmet ve ürün
+          yelpazemizi gelen talepler doğrultusunda genişleterek en kaliteli ve
+          en yüksek performanslı üretimleri gerçekleştirmekteyiz. 400 m2 kapalı
+          alanda son teknoloji lazer kesim makinalarımızla hizmet veren
+          firmamız, müşterilerine göstermiş olduğu kaliteli hizmeti, ekonomik
+          çözümler ve zamanında teslimat ile bütünleştirmektedir. Müşteri
+          memnuniyetinin önemli olduğunu bilen MC Lazer süreklilik için önce
+          kalite felsefesi ile çalışmalarını sürdürmekte ve içinde bulunduğu
+          sektörde her zaman kaliteyi arttırmayı hedefleyerek, sizlere hizmet
+          sunmaya zevk ve heyecanla devam etmektedir.
         </p>
       </div>
       <div className="containerCounter">

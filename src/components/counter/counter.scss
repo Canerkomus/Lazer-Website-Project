@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 .counter-up {
   background: black;
   min-height: 21vh;
@@ -10,7 +12,11 @@
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 0 130px;
+    @media only screen and (max-width: 768px) {
+      padding: 0px 10px;
+    }
+
     &::before {
       position: absolute;
       content: "";
@@ -19,10 +25,12 @@
       height: 23%;
       width: 100%;
       background: rgba(0, 0, 0, 0.1);
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
     }
-
     .box {
-      width: 10%;
+      width: 20%;
       border: 1px dashed rgba(255, 255, 255, 0.6);
       padding: 10px;
       border-radius: 5px;
@@ -31,10 +39,20 @@
       justify-content: space-evenly;
       flex-direction: column;
       color: white;
+      @media only screen and (max-width: 768px) {
+        width: 20%;
+        padding: 10px;
+        &:last-child {
+          display: none;
+        }
+      }
 
       .icon {
         font-size: 45px;
         color: white;
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
       }
 
       .counter {
@@ -42,6 +60,9 @@
         font-weight: 500;
         color: white;
         font-family: sans-serif;
+        @media only screen and (max-width: 768px) {
+          font-size: 20px;
+        }
       }
 
       .location {
@@ -51,6 +72,11 @@
       .text {
         font-weight: 400;
         color: white;
+        @media only screen and (max-width: 768px) {
+          font-size: 15px;
+          text-align: center;
+          margin-top: 5px;
+        }
       }
     }
   }

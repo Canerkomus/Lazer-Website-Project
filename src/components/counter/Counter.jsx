@@ -33,8 +33,8 @@ export default function Counter() {
           <div className="text">Ödül</div>
         </div>
         <div className="box">
-          <div className="icon">
-            <i className="fas fa-map-marker-alt"></i>{" "}
+          <div className="icon ">
+            <i className=" fas fa-map-marker-alt"></i>
           </div>
           <div className="location"> İZMİR</div>
         </div>

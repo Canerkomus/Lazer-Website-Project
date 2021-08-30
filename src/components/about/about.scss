@@ -1,77 +1,129 @@
+@import "../global.scss";
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  width: 100%;
 
   .containerAbout {
-    width: 90%;
+    width: 95%;
     display: flex;
-    align-items: center;
-
-    .company {
+    align-items: flex-start;
+    height: 50vh;
+    @media only screen and (max-width: 768px) {
       display: flex;
       flex-direction: column;
-      padding: 20px;
+      height: 60vh;
+    }
 
+    .company {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      @media only screen and (max-width: 768px) {
+        padding: 10px;
+      }
       .companyHead {
-        font-size: 24px;
+        font-size: 22px;
+        @media only screen and (max-width: 768px) {
+          font-size: 18px;
+        }
       }
       .companyText {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 10px;
+        @media only screen and (max-width: 768px) {
+          font-size: 15px;
+          margin-top: 5px;
+        }
       }
     }
 
     .vision {
+      width: 100%;
       display: flex;
       flex-direction: column;
-      padding: 20px;
+      padding: 10px;
+      @media only screen and (max-width: 768px) {
+        padding: 10px;
+      }
 
       .visionHead {
-        font-size: 24px;
+        font-size: 22px;
+        @media only screen and (max-width: 768px) {
+          font-size: 18px;
+        }
       }
       .visionText {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 10px;
+        @media only screen and (max-width: 768px) {
+          font-size: 15px;
+          margin-top: 5px;
+        }
       }
     }
 
     .mission {
+      width: 100%;
       display: flex;
       flex-direction: column;
-      padding: 20px;
+      padding: 10px;
+      @media only screen and (max-width: 768px) {
+        padding: 10px;
+      }
       .missionHead {
-        font-size: 24px;
+        font-size: 22px;
+        @media only screen and (max-width: 768px) {
+          font-size: 18px;
+        }
       }
       .missionText {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
-        margin-top: 20px;
+        margin-top: 10px;
+        @media only screen and (max-width: 768px) {
+          font-size: 15px;
+          margin-top: 5px;
+        }
       }
     }
   }
   .containerExplain {
-    width: 87%;
-    height: auto;
+    width: 93%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
 
     h1 {
       font-family: "Roboto", sans-serif;
-      margin-bottom: 18px;
+      margin-bottom: 10px;
+      font-size: 20px;
     }
     p {
-      font-size: 18px;
-      line-height: 2rem;
+      font-size: 15px;
+      line-height: 1.4rem;
+      font-family: "Roboto", sans-serif;
     }
   }
   .containerCounter {
     width: 100%;
     display: flex;
+    height: 30vh;
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      height: 18vh;
+      overflow: hidden;
+    }
   }
 }
